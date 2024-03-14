@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class CescoIncentive {
     public static void main(String[] args){
-        final double TIME_1 = 0.58;
-        final double TIME_2 = 0.33;
-        final double TIME_3 = 0.25;
-        final double TIME_4 = 0.17;
-        int js = 1;
+        final int TIME_1 = 35;
+        final int TIME_2 = 20;
+        final int TIME_3 = 15;
+        final int TIME_4 = 10;
+        int js = 60;
 
         int uvPowerAs = 0;
         int roomCaerAs = 0;
@@ -106,16 +106,18 @@ public class CescoIncentive {
         time3Sum = airJanic + airPurpum + handSanitizer;
 
         System.out.println(jsSum);
-        double time1 = TIME_1 * (asTime1Sum + time1Sum);
+        int time1 = TIME_1 * (asTime1Sum + time1Sum);
         System.out.println(time1);
-        double time2 = TIME_2 * (asTime2Sum + time2Sum);
+        int time2 = TIME_2 * (asTime2Sum + time2Sum);
         System.out.println(time2);
-        double time3 = TIME_3 * (asTime3Sum + time3Sum);
+        int time3 = TIME_3 * (asTime3Sum + time3Sum);
         System.out.println(time3);
-        double time4 = TIME_4 * asTime4Sum;
+        int time4 = TIME_4 * asTime4Sum;
         System.out.println(time4);
-        double total = jsSum + time1 + time2 + time3 + time4;
-        System.out.println(total);
+        int total = jsSum + time1 + time2 + time3 + time4;
+        float sum = total / 60f;
+
+        System.out.printf("이번달은 %d분 일했고 이를 시간으로 하면 %f시간 입니다.",total,sum);
 
         if(total < 56) {
             System.out.println("아쉽지만 이번달은 인센없음...");
