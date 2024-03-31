@@ -28,7 +28,7 @@ public class FlowEx1_4_5 {
            System.out.printf("당신의 학점은 %c%c 입니다%n",grade,opt);
        } else{
            grade = 'c';
-           System.out.printf("당신의 학점은 %cㅋㅋ%n",grade);50
+           System.out.printf("당신의 학점은 %cㅋㅋ%n",grade);
        }System.out.printf("당신의 점수는 %d 이며 학점은 %c 입니다.",score,grade);
 
 
