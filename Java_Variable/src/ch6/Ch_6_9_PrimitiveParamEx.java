@@ -14,4 +14,10 @@ public class Ch_6_9_PrimitiveParamEx {
         x = 1000;
         System.out.println("change() : x = "+x);
     }
+    static Data copy(Data d) {
+    Data tmp = new Data();
+    tmp.x = d.x;
+
+    return tmp;
+    }
 }
