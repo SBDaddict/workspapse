@@ -17,4 +17,3 @@ public class Ch_6_27_BlockTest {
         Ch_6_27_BlockTest bt2 = new Ch_6_27_BlockTest();
     }
 }
-
