@@ -24,9 +24,10 @@ public class Ch_6_1_SutdaCard {
 
 	public static void main(String[] args) {
 		SutdaCard s = new SutdaCard();
-		s.setNum(11);
+		s.setNum(9);
 		System.out.println(s.getNum());
 		
 	}
+	
 
 }

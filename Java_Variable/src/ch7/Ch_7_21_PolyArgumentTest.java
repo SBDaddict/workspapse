@@ -83,13 +83,13 @@ class Buyer { // 고객, 물건을 사는 사
 	void summary() {
 		int sum = 0;
 		String itemList ="";
-		if(item.isEmpty()) {
+		if(item.isEmpty()) { // Vector가 비어있는지 확인한다.
 			System.out.println("구입하신 제품이 없습니다.");
 			return;
 		}
 		
 		for(int i = 0 ; i < item.size() ; i++) {
-			Product p = (Product)item.get(i);
+			Product p = (Product)item.get(i); //Vector에 i번째 있는 객체를 얻어온다
 			sum += p.price;
 			itemList += (i==0) ? "" + p : ", " + p;
 		}
