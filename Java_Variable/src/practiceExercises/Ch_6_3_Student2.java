@@ -1,7 +1,5 @@
 package practiceExercises;
 
-import java.math.BigDecimal;
-
 public class Ch_6_3_Student2 {
 	public static void main(String[] args) {
 		Student2 s = new Student2("홍길동",1,1,100,60,76);
@@ -41,6 +39,14 @@ class Student2 {
 	public String info() {
 		return this.name 
 			+ ","
-			+ this.ban + "," + this.no + "," + this.kor + "," + this.eng + "," + this.math;
+			+ this.ban
+			+ "," 
+			+ this.no 
+			+ "," 
+			+ this.kor 
+			+ "," 
+			+ this.eng 
+			+ "," 
+			+ this.math;
 	}
 }
