@@ -1,5 +1,5 @@
 package ch7;
-import java.util.*; // Vector클래스를 사용하기 위해 추
+import java.util.*; // Vector클래스를 사용하기 위해 추가
 class Product {
 	Product() {
 	};
