@@ -15,7 +15,8 @@ public class Ch_9_16_StringEx6 {
 						+ Double.valueOf(strDval);
 		
 		System.out.println(String.join("",sVal,"+",strDval,"=")+sum);
-	
+		System.out.printf("%d + %f = %f",iVal,dVal,sum);
+	 
 
 	}
 
