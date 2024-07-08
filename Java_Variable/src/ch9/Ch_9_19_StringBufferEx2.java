@@ -17,7 +17,7 @@ public class Ch_9_19_StringBufferEx2 {
 		System.out.println("sb = "+sb.insert(3,"abc")); // 인덱스 3번째에 "abc"를 넣는다.67890는 뒤로 밀림
 		System.out.println("sb = "+sb.replace(6, sb.length(), "END")); //지정된 범위의 문자들을 주어진 문자열로 바꾼다. sb.length()가 11이므로 6~11 까지 범위의 문자를 바꾼다. 11은 포함 안됨.
 		System.out.println("capacity="+sb.capacity()); // sb배열의 인덱스 전체길이
-		System.out.println("length="+sb.length()); //sb배열의 저장된 길이
+ 		System.out.println("length="+sb.length()); //sb배열의 저장된 길이
 		
 		
 
