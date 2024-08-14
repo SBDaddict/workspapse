@@ -1,27 +1,29 @@
 package ch9;
 
-class Card {
+class Card2 {
 	String kind;
 	int number;
 	
-	Card(){
+	Card2(){
 		this("SPADE",1);
 		
 	}
 	
-	Card(String kind, int number){
+	Card2(String kind, int number){
 		this.kind = kind;
 		this.number = number;
 	}
+	public String toString() {
+		return "kind : " + kind + ", number : " + number;
+	}
 }
-
-class Ch_9_4_CardToString{
+public class Ch_9_6_CardToString2 {
 	public static void main(String[] args) {
-		Card c1 = new Card();
-		Card c2 = new Card();
+		Card2 c1 = new Card2();
+		Card2 c2 = new Card2();
 		
 		System.out.println(c1.toString());
 		System.out.println(c2.toString());
 	}
-}
 
+}

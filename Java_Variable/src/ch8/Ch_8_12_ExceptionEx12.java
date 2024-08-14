@@ -3,7 +3,7 @@ package ch8;
 public class Ch_8_12_ExceptionEx12 {
 
 	public static void main(String[] args) throws Exception {
-		method1();
+		method1();			
 	}
 	
 	static void method1() throws Exception {

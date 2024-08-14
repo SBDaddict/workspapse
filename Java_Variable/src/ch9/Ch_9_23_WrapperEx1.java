@@ -9,7 +9,7 @@ public class Ch_9_23_WrapperEx1 {
 		System.out.println("i == i2 ? "+ (i == i2));
 		System.out.println("i.equals(i2) ? " + i.equals(i2));
 		System.out.println("i.compareTo(i2) ? "+i.compareTo(i2));
-		System.out.println("i.toString()"+ i.toString());
+		System.out.println("i.toString() = "+ i.toString());
 		
 		System.out.println(Integer.MAX_VALUE);
 		System.out.println(Integer.MIN_VALUE);
